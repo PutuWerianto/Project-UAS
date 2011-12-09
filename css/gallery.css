@@ -1,0 +1,55 @@
+h1 {
+	border: 1px solid #ccc; 
+	margin: 10px auto; 
+	width: 845px; 
+	padding: 10px;
+	
+	background: -webkit-linear-gradient(red, white);
+	
+	text-align: center;
+	font-weight: bold;
+	color: green;
+	
+	x-offset y-offset blur-radius color;			
+	text-shadow:-5px -5px 12px black;
+}
+
+#gallery, #photo {
+	width: 845px; 
+	padding: 10px;
+	background-color: #cccccc;
+	border: 1px solid #ccc; 
+	margin: 10px auto;
+	background: -webkit-linear-gradient(45deg, green, white, red);	
+}
+	
+.item {
+	width: 100px;
+	height: 75px;
+	margin: 10px;
+	overflow: hidden;
+	position: relative;
+	float: left;
+	padding: 10px; 
+	background-color: #ddd;
+}
+
+.item .caption {
+	bottom: 0;
+	color: #fff;
+	background: #000;
+	position: absolute;
+	left: 0;
+	display: none;
+	width: 110px;
+	height: 25px;
+	padding-left: 10px;
+}
+
+.item:hover img {
+	border:0;
+	position:absolute;
+	background: green;
+	-webkit-transition: background 1s;
+}
+
